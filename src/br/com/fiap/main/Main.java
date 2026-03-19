@@ -15,7 +15,7 @@ public class Main {
             //Criação e instanciação da classe DespesaFamiliar
             DespesaFamiliar desF = new DespesaFamiliar();
 
-            //Perguntado o valor das variáveis ao usuário, e armazenando elas com a classe Scanner
+            //Perguntando o valor das variáveis ao usuário, e armazenando elas com a classe Scanner
             Scanner scan;
             scan = new Scanner(System.in);
             System.out.println("Qual o valor da renda familiar: ");
