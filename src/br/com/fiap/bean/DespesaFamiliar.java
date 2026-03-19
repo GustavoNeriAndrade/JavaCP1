@@ -1,6 +1,6 @@
 //Gustavo Neri Andrade - rm572722
-//Miguel
-//Carlos Americo
+//Miguel Vieira Martins - rm571978
+//Carlos Americo Machado - rm571250
 package br.com.fiap.bean;
 
 public class DespesaFamiliar {
@@ -11,6 +11,7 @@ public class DespesaFamiliar {
     public double gastoComAgua;
     public double gastoComInternet;
     public double valorMensalidadeDaAcademia;
+
     //Métodos da classe
     public double calcularTotalDeDespesas(){
         double totalDespesas;
