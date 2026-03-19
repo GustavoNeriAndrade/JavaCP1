@@ -15,12 +15,12 @@ public class Main {
             //Criação e instanciação da classe DespesaFamiliar
             DespesaFamiliar desF = new DespesaFamiliar();
 
-            //Perguntadoo valor das variáveis ao usuário, e armazenando elas com a classe Scanner
+            //Perguntando o valor das variáveis ao usuário, e armazenando elas com a classe Scanner
             Scanner scan;
             scan = new Scanner(System.in);
             System.out.println("Qual o valor da renda familiar: ");
             desF.rendaFamiliar = scan.nextDouble();
-            System.out.println("Qual o númerode moradores: ");
+            System.out.println("Qual o número de moradores: ");
             desF.numeroDeMoradores = scan.nextInt();
             System.out.println("Qual o valor da conta de luz: ");
             desF.gastoComLuz = scan.nextDouble();
