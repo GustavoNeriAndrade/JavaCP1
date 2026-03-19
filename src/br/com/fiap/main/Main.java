@@ -34,7 +34,7 @@ public class Main {
             //Atribuindo variáveis e calculando resultados
             double totalDespesas = desF.calcularTotalDeDespesas();
             double rendaFamiliarLiquida = desF.calcularRendaFamiliarLiquida();
-            System.out.printf("Valor da renda familiar: R$%.3f\nValor total das despesas: R$%.3f\nValor da renda familiar líquida: R$%.3f\n", desF.rendaFamiliar, totalDespesas, rendaFamiliarLiquida);
+            System.out.printf("Valor da renda familiar: R$%.3f\nValor total das despesas: R$%.3f\nValor da renda familiar líquida: R$%.3f", desF.rendaFamiliar, totalDespesas, rendaFamiliarLiquida);
 
             //Mensagem mostrada ao usuário caso erre o formato da variável
         } catch (Exception e) {
