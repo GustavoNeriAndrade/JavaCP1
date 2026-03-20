@@ -9,15 +9,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //Mensagem caso erro ao informar a variável
-        try {
 
-            //Criação e instanciação da classe DespesaFamiliar
+
+
+            //Criação e instanciação dos objetos da classe DespesaFamiliar e Scanner
             DespesaFamiliar desF = new DespesaFamiliar();
-
-            //Perguntando o valor das variáveis ao usuário, e armazenando elas com a classe Scanner
             Scanner scan;
             scan = new Scanner(System.in);
+
+            //Perguntando o valor das variáveis ao usuário, e armazenando elas com a classe Scanner
+            //Mensagem caso erro ao informar a variável
+        try {
             System.out.println("Qual o valor da renda familiar: ");
             desF.rendaFamiliar = scan.nextDouble();
             System.out.println("Qual o número de moradores: ");
